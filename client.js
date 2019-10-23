@@ -17,11 +17,6 @@ const connect = function() {
 
   conn.on('connect', () => {
     conn.write("Name: JSG");
-    conn.write("Move: up");
-
-    
-    
-    //conn.write("Move: up");
     conn.write('Hello from client!');
   });
 
